@@ -14,7 +14,7 @@ I am studying in RSSCHOOL.
 ```function multiply($a, $b) { return ($a * $b); }```
 
 **Courses:**
-Udemy course “Web- разработчик” (in progress) RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+Udemy course “Web- разработчик” (in progress) RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).
 
 **Languages:**
-English - A2 (in progress) Polish - B1 Russian - Native speaker
+English - A2 (in progress) Polish - B1 Russian - Native speaker.
