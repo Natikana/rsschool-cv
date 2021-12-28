@@ -1,7 +1,7 @@
 # Natallia Mashkouskaya
 **Contacts:**
 **E-mail:** mashkovski82@gmail.com
-
+** Location:** Warsaw
 **Tel:** +48 733 887 503 GitHub: Natikana
 
 **About Myself**
