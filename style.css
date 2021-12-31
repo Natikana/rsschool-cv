@@ -1,8 +1,18 @@
-    
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
 
 header {
-height: 40px;
-background-color: #e5f1ff;;
+    height: 40px;
+    background-color: #e5f1ff;;
 }
 
 html {
@@ -19,24 +29,140 @@ html {
 }
 
 .menu .menu_link {
-font-size: 14px;
-line-height: 1.2;
-font-weight: 600;
-text-transform: uppercase;
-color: #282828;
-text-decoration: none;
-}
-
-.profile {
-    position: absolute;
-    height: 460px;
-    width: 100%;
-}
-
-.title {
-    margin-top: 301;
-    font-size: 50px;
+    font-size: 16px;
     line-height: 1.3;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #707070;
+    text-decoration: none;
+}
+
+.background {
+    display: flex;
+    justify-content: space-between;
+    background: #e5f1ff;
+    width: 40%;
+    height: 900px;
+} 
+.profile {
+    padding: 140px 0 200px 0x;
+    min-height: 260px;
+    width: 100%;
+} 
+
+.profile .title {
+    display: inline;
+    margin-left: 650px;
+    font-size: 35px;
     font-weight: 600;
     color: #0067de;
 } 
+
+.profile .profile_foto {
+    top: -140px;
+    left: -240px;
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 40%;
+}
+
+.contacts_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0067de;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.contacts_list {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 30px;
+}
+
+.Myself {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.Myself_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0067de;
+}
+
+/* .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 60px; 
+    width: 40%; 
+    
+}
+
+.skills_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0067de;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+.skills_list {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 30px;
+    
+}
+
+.Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 60px;
+    width: 40%; 
+    
+}
+
+.Languages_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0067de;
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+.Languages_list {
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    line-height: 30px;
+} */
+
+/* .Myself {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.Myself_title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #0067de;
+} */
+
+
