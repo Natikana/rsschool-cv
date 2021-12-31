@@ -14,15 +14,11 @@ header {
     background-color: #e5f1ff;;
 }
 
-
-  
 .container {
     position: relative; 
     width: 1140px;
     margin: 0 auto;
 }
-
-
 
 .menu {
     display: flex;
