@@ -1,7 +1,42 @@
-body {
-    background-color: brown;
+    
+
+header {
+height: 40px;
+background-color: #e5f1ff;;
 }
-h1 {
-    font-size: 30px;
-    color: cadetblue;
+
+html {
+    font-family: 'Poppins', sans-serif;    
 }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 7px 70px;
+    list-style-type: none;
+   
+}
+
+.menu .menu_link {
+font-size: 14px;
+line-height: 1.2;
+font-weight: 600;
+text-transform: uppercase;
+color: #282828;
+text-decoration: none;
+}
+
+.profile {
+    position: absolute;
+    height: 460px;
+    width: 100%;
+}
+
+.title {
+    margin-top: 301;
+    font-size: 50px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #0067de;
+} 
