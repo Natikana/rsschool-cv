@@ -11,7 +11,7 @@ html {
 
 header {
     height: 40px;
-    background-color: #e5f1ff;;
+    background-color: #e5f1ff;
 }
 
 .container {
@@ -36,26 +36,25 @@ header {
     text-transform: capitalize;
     color: #707070;
     text-decoration: none;
-    transition: color 0.5s;
+    transition: color 0.3s;
     
 }
 
 .menu .menu_link:hover {
     color: #0067de;
-  }
+}
 
 .background {
 
     background: #e5f1ff;
     width: 40%;
-    height: 1700px;  
+    height: 1600px;  
     
 } 
 .profile {
     padding: 140px 0 200px 0x; 
     min-height: 260px;
-    
-    
+      
 } 
 
 .profile .title {
@@ -76,12 +75,13 @@ header {
     border-radius: 50%;
     position: absolute;
     
+    
 }
- /* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .section {
       width: 100%;
-    }
-  } */
+    } 
+} 
 
 .container-main1 {
     display: flex;
@@ -91,7 +91,7 @@ header {
     width: 70%;
     left: 100px;
     margin-top: 200px;
- }
+}
 
 .contacts {
     width: 40%; 
@@ -261,6 +261,38 @@ header {
     color: #707070;
     line-height: 30px;
     margin-top: 20px;  
+}
+
+footer {
+    height: 50px;
+    background-color: #e5f1ff;
+    margin-top: 1300px; 
+}
+
+.footer_wrapper {
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+           
+}
+
+.footer_wrapper .footer_links {
+    display: flex;
+    justify-content: space-between;
+	height: 32px;
+    margin: 0 30px;
+        
+}
+
+.footer_wrapper .footer_links .footer_item {
+    display: flex;
+     
+}
+.footer_wrapper .year {
+    font-size: 16px;
+    font-weight: 600;
+    color: #707070;
+
 }
 
     
